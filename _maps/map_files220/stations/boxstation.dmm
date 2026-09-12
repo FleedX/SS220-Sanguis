@@ -3625,6 +3625,13 @@
 "aqv" = (
 /turf/simulated/wall,
 /area/station/security/warden)
+"aqw" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/space,
+/area/space/nearstation)
 "aqx" = (
 /obj/effect/spawner/window/reinforced/grilled,
 /obj/structure/cable{
@@ -30150,6 +30157,9 @@
 /obj/effect/turf_decal/tiles/department/engineering/corner{
 	dir = 1
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plasteel,
 /area/station/engineering/ai_transit_tube)
 "cqK" = (
@@ -32035,16 +32045,11 @@
 /turf/simulated/floor/plasteel,
 /area/station/service/kitchen)
 "cyz" = (
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/effect/spawner/window/reinforced/grilled,
 /obj/structure/cable{
-	icon_state = "2-8"
+	icon_state = "1-8"
 	},
+/obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/station/turret_protected/aisat/interior)
 "cyA" = (
@@ -32506,6 +32511,13 @@
 	dir = 1;
 	network = list("SS13","MiniSat")
 	},
+/obj/structure/table,
+/obj/item/folder,
+/obj/item/pen/multi,
+/obj/item/radio{
+	pixel_x = 13;
+	pixel_y = 4
+	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/turret_protected/aisat/interior)
 "cAi" = (
@@ -32961,6 +32973,9 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/access_button/offset/northwest,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/turret_protected/aisat/interior)
 "cCi" = (
@@ -40713,6 +40728,9 @@
 /obj/structure/transit_tube/curved{
 	dir = 8
 	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/space,
 /area/space/nearstation)
 "dgZ" = (
@@ -40997,17 +41015,23 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/effect/mapping_helpers/airlock/access/any/science/minisat,
+/obj/effect/mapping_helpers/airlock/autoname,
+/obj/machinery/door/airlock/hatch{
+	dir = 4
+	},
+/obj/machinery/door/firedoor{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/turret_protected/aisat/interior)
 "diD" = (
-/obj/machinery/light/small/directional/north,
-/obj/structure/rack,
-/obj/item/screwdriver,
-/obj/item/radio,
-/obj/machinery/light_switch/north,
-/obj/effect/turf_decal/delivery,
-/turf/simulated/floor/plasteel/dark,
-/area/station/turret_protected/aisat/interior)
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/space,
+/area/space/nearstation)
 "diE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -41023,6 +41047,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
+/obj/machinery/light/small/directional/north,
 /turf/simulated/floor/plasteel/dark,
 /area/station/turret_protected/aisat/interior)
 "diG" = (
@@ -41782,6 +41807,13 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plating,
 /area/station/maintenance/asmaint)
+"dlQ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/space,
+/area/space/nearstation)
 "dlR" = (
 /obj/machinery/light/directional/east,
 /obj/effect/turf_decal/tiles/department/engineering/corner{
@@ -41912,6 +41944,9 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/plasteel,
 /area/station/engineering/ai_transit_tube)
 "dmz" = (
@@ -42310,10 +42345,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
 /obj/machinery/access_button/offset/north,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/turret_protected/aisat/interior)
 "dnW" = (
@@ -42325,6 +42360,9 @@
 /obj/machinery/airlock_controller/air_cycler/directional/north,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /obj/effect/mapping_helpers/airlock/access/all/science/minisat,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/turret_protected/aisat/interior)
 "dnY" = (
@@ -42435,12 +42473,11 @@
 /turf/simulated/floor/plating,
 /area/station/maintenance/electrical)
 "doy" = (
-/obj/machinery/light/small/directional/north,
-/obj/structure/table,
-/obj/item/folder,
-/obj/item/pen/multi,
-/turf/simulated/floor/plasteel/dark,
-/area/station/turret_protected/aisat/interior)
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plasteel,
+/area/station/engineering/ai_transit_tube)
 "doz" = (
 /obj/effect/spawner/window/shuttle,
 /turf/simulated/floor/plating,
@@ -42855,6 +42892,9 @@
 /obj/effect/turf_decal/tiles/department/engineering/corner{
 	dir = 1
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plasteel,
 /area/station/engineering/ai_transit_tube)
 "dqB" = (
@@ -43235,6 +43275,10 @@
 /turf/simulated/floor/plasteel,
 /area/station/hallway/secondary/entry/south)
 "dsI" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/space,
 /area/space/nearstation)
 "dsJ" = (
@@ -44958,6 +45002,9 @@
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/control)
 "dTG" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plasteel/stairs/right{
 	dir = 8
 	},
@@ -46802,6 +46849,13 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/service/hydroponics)
+"ext" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/space,
+/area/space/nearstation)
 "exu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/chair/plastic,
@@ -47031,18 +47085,13 @@
 /turf/simulated/floor/plating,
 /area/station/science/xenobiology)
 "eCl" = (
-/obj/machinery/door/firedoor{
-	dir = 4
-	},
-/obj/machinery/door/airlock/hatch{
-	dir = 4
-	},
-/obj/effect/mapping_helpers/airlock/autoname,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/mapping_helpers/airlock/access/any/science/minisat,
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/turret_protected/aisat/interior)
@@ -59067,6 +59116,9 @@
 /obj/effect/turf_decal/tiles/department/engineering/corner{
 	dir = 1
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plasteel,
 /area/station/engineering/ai_transit_tube)
 "ixM" = (
@@ -61577,15 +61629,9 @@
 /turf/simulated/floor/wood/parquet/oak,
 /area/station/public/vacant_office)
 "jqj" = (
-/obj/machinery/camera/motion{
-	c_tag = "AI Satellite Antechamber North";
-	dir = 1;
-	network = list("SS13","MiniSat")
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/item/radio/intercom/directional/south,
 /turf/simulated/floor/plasteel/dark,
 /area/station/turret_protected/aisat/interior)
 "jqB" = (
@@ -64436,13 +64482,13 @@
 /turf/simulated/floor/plasteel/white,
 /area/station/medical/reception)
 "kla" = (
-/obj/machinery/light/directional/south,
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
 	},
 /obj/structure/cable{
-	icon_state = "4-8"
+	icon_state = "0-8"
 	},
+/obj/effect/turf_decal/arrows/red,
 /turf/simulated/floor/plasteel/dark,
 /area/station/turret_protected/aisat/interior)
 "klh" = (
@@ -65967,6 +66013,9 @@
 /obj/effect/map_effect/dynamic_airlock,
 /obj/machinery/airlock_controller/air_cycler/directional/north,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plasteel,
 /area/station/engineering/ai_transit_tube)
 "kLR" = (
@@ -67849,6 +67898,16 @@
 /obj/effect/landmark/start/prisoner,
 /turf/simulated/floor/plasteel,
 /area/station/security/permabrig)
+"ltc" = (
+/obj/machinery/light/directional/south,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/effect/turf_decal/arrows/red{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/station/turret_protected/aisat/interior)
 "lte" = (
 /obj/machinery/light/directional/west,
 /obj/machinery/papershredder,
@@ -71071,6 +71130,15 @@
 /obj/effect/turf_decal/tiles/neutral,
 /turf/simulated/floor/plasteel,
 /area/station/hallway/primary/aft)
+"mqb" = (
+/obj/item/radio/intercom/directional/south,
+/obj/machinery/camera/motion{
+	c_tag = "AI Satellite Antechamber North";
+	dir = 1;
+	network = list("SS13","MiniSat")
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/station/turret_protected/aisat/interior)
 "mqd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
@@ -76800,6 +76868,9 @@
 /obj/effect/map_effect/dynamic_airlock/door/exterior,
 /obj/effect/mapping_helpers/airlock/autoname,
 /obj/machinery/access_button/offset/north,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plasteel,
 /area/station/engineering/ai_transit_tube)
 "ojz" = (
@@ -76886,6 +76957,9 @@
 /obj/effect/map_effect/dynamic_airlock/door/interior,
 /obj/effect/mapping_helpers/airlock/autoname,
 /obj/machinery/access_button/offset/northwest,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plasteel,
 /area/station/engineering/ai_transit_tube)
 "okB" = (
@@ -81620,6 +81694,11 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/hallway/secondary/entry)
+"pKZ" = (
+/obj/machinery/light_switch/north,
+/obj/machinery/light/small/directional/north,
+/turf/simulated/floor/plasteel/dark,
+/area/station/turret_protected/aisat/interior)
 "pLa" = (
 /obj/effect/turf_decal/delivery,
 /obj/effect/decal/cleanable/dirt,
@@ -82455,8 +82534,9 @@
 /area/station/supply/warehouse)
 "pYI" = (
 /obj/structure/transit_tube,
+/obj/structure/lattice,
 /turf/space,
-/area/space)
+/area/space/nearstation)
 "pYS" = (
 /obj/machinery/hologram/holopad,
 /obj/structure/cable{
@@ -88316,9 +88396,6 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/turret_protected/aisat/interior)
 "rTF" = (
@@ -88670,6 +88747,9 @@
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/control)
 "rZm" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plasteel,
 /area/station/engineering/ai_transit_tube)
 "rZA" = (
@@ -99752,6 +99832,11 @@
 /obj/machinery/atmospherics/portable/pump,
 /turf/simulated/floor/plating,
 /area/station/maintenance/port2)
+"vwl" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/space,
+/area/space/nearstation)
 "vwn" = (
 /mob/living/simple_animal/cock/clucky,
 /obj/structure/window/reinforced{
@@ -101236,6 +101321,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tiles/department/engineering/corner{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
 	},
 /turf/simulated/floor/plasteel,
 /area/station/engineering/ai_transit_tube)
@@ -103078,6 +103166,9 @@
 "wym" = (
 /obj/effect/turf_decal/tiles/department/engineering/corner{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
 	},
 /turf/simulated/floor/plasteel,
 /area/station/engineering/ai_transit_tube)
@@ -105100,6 +105191,9 @@
 /obj/effect/turf_decal/tiles/department/engineering/corner{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plasteel,
 /area/station/engineering/ai_transit_tube)
 "xgn" = (
@@ -106213,6 +106307,13 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/science/robotics)
+"xyv" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/space,
+/area/space/nearstation)
 "xyG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -147572,7 +147673,7 @@ dbM
 ogH
 vSI
 rZm
-rZm
+doy
 vSC
 nvN
 aWg
@@ -148618,9 +148719,9 @@ aaa
 aab
 aaa
 aab
-doE
-doE
-doE
+diD
+xyv
+dsI
 doE
 iUc
 dQC
@@ -148858,9 +148959,11 @@ cyJ
 chf
 aab
 doE
-doE
-doE
+ext
+xyv
 dgX
+xyv
+vwl
 doE
 doE
 doE
@@ -148872,10 +148975,8 @@ doE
 doE
 doE
 doE
-doE
-aab
-aab
-doE
+dlQ
+aqw
 cEa
 cCh
 dmB
@@ -149127,11 +149228,11 @@ bvr
 dkZ
 bvr
 dkZ
-dkZ
+bvr
 pYI
 bvo
 doE
-doE
+aab
 doE
 cNv
 dnW
@@ -149384,9 +149485,9 @@ aaa
 aab
 aab
 aab
-dsI
 aab
-doE
+aab
+aab
 cvb
 ajU
 ajU
@@ -149643,14 +149744,14 @@ chf
 aab
 aab
 aab
-doE
+aab
 kKJ
 kYd
 gqn
 hMV
 kla
+ltc
 dnZ
-doy
 diF
 doY
 diI
@@ -149899,8 +150000,8 @@ cyJ
 cAe
 aaa
 aab
-dsI
-doE
+aab
+aab
 kKJ
 uwh
 raN
@@ -150163,9 +150264,9 @@ asU
 mJm
 qmU
 jqj
+mqb
 dnZ
-diD
-diI
+pKZ
 diN
 djH
 cAg
