@@ -8473,6 +8473,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/station/maintenance/fsmaint)
+"aGK" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/space,
+/area/space/nearstation)
 "aGL" = (
 /obj/effect/spawner/random/fungus/maybe,
 /turf/simulated/wall,
@@ -10321,11 +10328,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel,
 /area/station/maintenance/electrical)
-"aNl" = (
-/obj/machinery/light_switch/north,
-/obj/machinery/light/small/directional/north,
-/turf/simulated/floor/plasteel/dark,
-/area/station/turret_protected/aisat/interior)
 "aNm" = (
 /obj/machinery/power/port_gen/pacman,
 /obj/effect/spawner/random/cobweb/right/frequent,
@@ -36609,8 +36611,7 @@
 /area/station/engineering/supermatter_room)
 "cRk" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan{
-	dir = 8;
-	initialize_directions = 11
+	dir = 8
 	},
 /turf/simulated/floor/engine,
 /area/station/engineering/engine/reactor)
@@ -47215,13 +47216,6 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/command/bridge)
-"eFh" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/space,
-/area/space/nearstation)
 "eFl" = (
 /obj/effect/mapping_helpers/turfs/damage,
 /obj/structure/disposalpipe/segment,
@@ -47562,13 +47556,6 @@
 /obj/structure/lattice/catwalk,
 /obj/structure/disposalpipe/segment/corner{
 	dir = 4
-	},
-/turf/space,
-/area/space/nearstation)
-"eKU" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	icon_state = "2-4"
 	},
 /turf/space,
 /area/space/nearstation)
@@ -52886,6 +52873,13 @@
 /obj/machinery/light/small/directional/east,
 /turf/simulated/floor/plating,
 /area/station/maintenance/fpmaint2)
+"gvn" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/space,
+/area/space/nearstation)
 "gvy" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -63731,6 +63725,13 @@
 	dir = 4
 	},
 /area/station/service/chapel/funeral)
+"jWp" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/space,
+/area/space/nearstation)
 "jWy" = (
 /obj/structure/table/wood,
 /obj/item/storage/lockbox/medal,
@@ -63931,8 +63932,7 @@
 "kaB" = (
 /obj/machinery/atmospherics/meter,
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan{
-	dir = 8;
-	initialize_directions = 11
+	dir = 8
 	},
 /turf/simulated/floor/plasteel,
 /area/station/engineering/atmos)
@@ -68444,6 +68444,11 @@
 	},
 /turf/simulated/floor/wood/parquet/oak,
 /area/station/security/detective)
+"lBV" = (
+/obj/machinery/light_switch/north,
+/obj/machinery/light/small/directional/north,
+/turf/simulated/floor/plasteel/dark,
+/area/station/turret_protected/aisat/interior)
 "lCk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/maintenance,
@@ -79707,13 +79712,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan,
 /turf/simulated/floor/plating,
 /area/station/maintenance/fsmaint)
-"pcG" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/space,
-/area/space/nearstation)
 "pcR" = (
 /obj/effect/decal/cleanable/dust,
 /obj/item/storage/bible,
@@ -80255,15 +80253,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel/dark,
 /area/station/security/execution)
-"pmg" = (
-/obj/item/radio/intercom/directional/south,
-/obj/machinery/camera/motion{
-	c_tag = "AI Satellite Antechamber North";
-	dir = 1;
-	network = list("SS13","MiniSat")
-	},
-/turf/simulated/floor/plasteel/dark,
-/area/station/turret_protected/aisat/interior)
 "pml" = (
 /obj/machinery/atmospherics/pipe/simple/visible/purple{
 	dir = 4
@@ -80545,8 +80534,7 @@
 /area/station/engineering/atmos)
 "ppH" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan{
-	dir = 8;
-	initialize_directions = 11
+	dir = 8
 	},
 /turf/simulated/floor/plasteel/white,
 /area/station/science/toxins/mixing)
@@ -84821,11 +84809,6 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/secure_storage)
-"qGy" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable,
-/turf/space,
-/area/space/nearstation)
 "qGD" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 4
@@ -86108,6 +86091,11 @@
 "qZN" = (
 /turf/simulated/wall/r_wall,
 /area/station/maintenance/asmaint2)
+"qZT" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/space,
+/area/space/nearstation)
 "rac" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/largecrate,
@@ -87840,12 +87828,6 @@
 	},
 /turf/simulated/floor/carpet,
 /area/station/command/office/captain)
-"rIH" = (
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/plasteel,
-/area/station/engineering/ai_transit_tube)
 "rIV" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -90776,6 +90758,12 @@
 /obj/effect/turf_decal/tiles/department/cargo/side,
 /turf/simulated/floor/plasteel,
 /area/station/supply/storage)
+"sFx" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plasteel,
+/area/station/engineering/ai_transit_tube)
 "sFy" = (
 /obj/structure/closet/l3closet/scientist,
 /turf/simulated/floor/plating,
@@ -94917,6 +94905,15 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/engineering/dronefabricator)
+"tUX" = (
+/obj/item/radio/intercom/directional/south,
+/obj/machinery/camera/motion{
+	c_tag = "AI Satellite Antechamber North";
+	dir = 1;
+	network = list("SS13","MiniSat")
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/station/turret_protected/aisat/interior)
 "tVd" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light/directional/east,
@@ -104400,13 +104397,6 @@
 /obj/effect/landmark/start/assistant,
 /turf/simulated/floor/plasteel/dark,
 /area/station/public/arcade)
-"wTL" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/space,
-/area/space/nearstation)
 "wTO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -107730,6 +107720,13 @@
 	},
 /turf/simulated/floor/plasteel/white,
 /area/station/science/xenobiology)
+"xUj" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/space,
+/area/space/nearstation)
 "xUA" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 10
@@ -108253,12 +108250,11 @@
 /turf/simulated/floor/plasteel/white,
 /area/station/public/toilet/unisex)
 "ycj" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/cyan{
-	dir = 8;
-	initialize_directions = 11
-	},
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible/cyan{
+	dir = 8
 	},
 /turf/simulated/floor/plasteel/white,
 /area/station/science/toxins/mixing)
@@ -147679,7 +147675,7 @@ dbM
 ogH
 vSI
 rZm
-rIH
+sFx
 vSC
 nvN
 aWg
@@ -148725,9 +148721,9 @@ aaa
 aab
 aaa
 aab
-eKU
-wTL
-pcG
+jWp
+aGK
+gvn
 doE
 iUc
 dQC
@@ -148966,10 +148962,10 @@ chf
 aab
 doE
 doy
-wTL
+aGK
 dgX
-wTL
-qGy
+aGK
+qZT
 doE
 doE
 doE
@@ -148981,7 +148977,7 @@ doE
 doE
 doE
 doE
-eFh
+xUj
 diD
 cEa
 cCh
@@ -150270,9 +150266,9 @@ asU
 mJm
 qmU
 jqj
-pmg
+tUX
 dnZ
-aNl
+lBV
 diN
 djH
 cAg
