@@ -12957,7 +12957,6 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/supermatter_room)
 "aLz" = (
@@ -13069,14 +13068,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
 /obj/structure/cable/extra_insulated{
 	icon_state = "4-8"
 	},
 /obj/effect/turf_decal/tiles/department/engineering/corner{
 	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/supermatter_room)
@@ -13091,14 +13090,14 @@
 /obj/effect/turf_decal/tiles/department/engineering/side{
 	dir = 8
 	},
+/obj/structure/disposalpipe/segment/corner{
+	dir = 1
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
-	},
-/obj/structure/disposalpipe/segment/corner{
-	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/supermatter_room)
@@ -13109,15 +13108,15 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
 /obj/effect/turf_decal/tiles/department/engineering/corner,
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/supermatter_room)
@@ -13322,9 +13321,6 @@
 /turf/simulated/floor/plasteel/dark,
 /area/station/service/hydroponics)
 "aMv" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan{
 	dir = 1
 	},
@@ -13794,6 +13790,7 @@
 /obj/effect/turf_decal/tiles/department/engineering/corner{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/supermatter_room)
 "aOb" = (
@@ -13816,15 +13813,14 @@
 	dir = 8;
 	network = list("SS13","Engineering")
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/turf_decal/tiles/department/engineering/corner{
 	dir = 4
 	},
 /obj/machinery/alarm/directional/east,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/supermatter_room)
 "aOf" = (
@@ -13999,6 +13995,7 @@
 /obj/effect/turf_decal/tiles/department/engineering/corner{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/supermatter_room)
 "aOE" = (
@@ -14021,13 +14018,12 @@
 /turf/simulated/floor/plasteel/white,
 /area/station/medical/storage)
 "aOG" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/power/apc/critical/directional/east,
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/turf_decal/tiles/department/engineering/corner{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/supermatter_room)
 "aOH" = (
@@ -14522,6 +14518,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 6
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/supermatter_room)
 "aPK" = (
@@ -14555,7 +14552,6 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/supermatter_room)
 "aPO" = (
@@ -14868,9 +14864,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/supermatter_room)
 "aQU" = (
@@ -15106,6 +15099,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/green,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/supermatter_room)
 "aRI" = (
@@ -15472,11 +15466,17 @@
 	icon_state = "1-4"
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/supermatter_room)
 "aSS" = (
 /obj/structure/cable/extra_insulated{
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/supermatter_room)
@@ -15499,22 +15499,16 @@
 /turf/simulated/floor/plasteel/white,
 /area/station/science/toxins/mixing)
 "aSV" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 4
-	},
 /obj/machinery/atmospherics/meter,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
-	},
 /obj/structure/cable/extra_insulated{
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/cyan{
+	dir = 4
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/supermatter_room)
 "aSY" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
@@ -16075,9 +16069,6 @@
 /obj/machinery/newscaster/directional/east,
 /obj/effect/turf_decal/tiles/department/engineering/corner{
 	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
@@ -18066,6 +18057,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/green,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/supermatter_room)
 "bbh" = (
@@ -18782,7 +18774,7 @@
 /area/station/maintenance/asmaint)
 "bdC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
+	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 6
@@ -25232,9 +25224,6 @@
 /turf/simulated/floor/plasteel,
 /area/station/maintenance/apmaint)
 "dBo" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
@@ -33941,12 +33930,11 @@
 /turf/space,
 /area/station/science/toxins/mixing)
 "jxf" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/turf_decal/tiles/department/engineering/corner,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/supermatter_room)
 "jxp" = (
@@ -43985,6 +43973,13 @@
 	},
 /turf/simulated/floor/carpet/black,
 /area/station/procedure/trainer_office)
+"qHX" = (
+/obj/effect/turf_decal/tiles/department/engineering/corner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/plasteel/dark,
+/area/station/engineering/supermatter_room)
 "qIe" = (
 /obj/machinery/atmospherics/unary/thermomachine/freezer,
 /turf/simulated/floor/plasteel,
@@ -44381,9 +44376,6 @@
 /turf/simulated/floor/wood/fancy/oak,
 /area/station/service/library)
 "qZy" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
@@ -45995,6 +45987,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/green,
 /obj/structure/extinguisher_cabinet/directional/west,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/supermatter_room)
 "shu" = (
@@ -54946,9 +54941,6 @@
 /turf/simulated/floor/plasteel/dark,
 /area/station/engineering/atmos)
 "xAq" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
@@ -77722,7 +77714,7 @@ aIf
 aJp
 aKy
 aLM
-soc
+qHX
 aNY
 aOz
 aPI
@@ -77991,7 +77983,7 @@ ajj
 iRv
 aOc
 bQk
-bQk
+tgh
 tgh
 htu
 aSa
@@ -78248,7 +78240,7 @@ aTa
 vsM
 gsh
 yfB
-yfB
+fwt
 fwt
 bwO
 aEQ
